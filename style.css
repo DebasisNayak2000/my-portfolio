@@ -6,16 +6,14 @@
 }
 
 .left {
-    width: 25%;
     background-color: rgb(23, 11, 41);
+    width: 25%;
+    float: left;
+    height: auto;
     color: white;
-}
+    overflow-y: scroll;
 
-.left_top {
-    padding-top: 20px;
 }
-
-.left_bottom {}
 
 .profile {
     width: 100px;
@@ -26,10 +24,20 @@
     border-radius: 80px;
 }
 
-.full_name {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 15px;
+.left_top {
+    padding-top: 20px;
+}
+
+.left_bottom {
+    margin-bottom: 25px;
+}
+
+.left_bottom a {
+    display: block;
+    margin-left: 20px;
+    line-height: 4;
+    font-size: large;
+
 }
 
 .social_icons {
@@ -48,4 +56,40 @@
 
 #social:hover {
     background-color: rgb(12, 138, 241);
+}
+
+.full_name {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.right {
+
+    width: 75%;
+    float: left;
+
+}
+
+.home_image {
+    position: absolute;
+    width: 949px;
+    z-index: -2;
+}
+
+.right_home_name {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 200px;
+    color: antiquewhite;
+}
+
+.right_home_job {
+    color: antiquewhite;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+
 }
