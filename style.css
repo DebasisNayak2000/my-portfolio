@@ -76,6 +76,7 @@
     position: absolute;
     width: 949px;
     z-index: -2;
+    opacity: 0.6;
 }
 
 .right_home_name {
